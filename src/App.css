@@ -1,5 +1,11 @@
+
 .App {
   text-align: center;
+  /* background-image: url("./bg-test.svg");
+ 
+  background-position: center;
+  background-size: cover; */
+  
 }
 
 .App-logo {
@@ -28,6 +34,19 @@
   color: #61dafb;
 }
 
+.header-bg {
+  background-image: url("./header-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.login-bg {
+  background-image: url("./login-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +55,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  background-color: transparent;
+  background-image: none;
+}
+
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .nav-menu {
+  display: block;
+}
+
