@@ -1,6 +1,5 @@
 import React from "react";
-import MongolRiding from "../mongol-riding.gif";
-import GenghisFace from "../genghis-face.png";
+
 
 const LogIn = (props) => {
   // const {submitLogIn, loggingUser, changeHandlerLogIn} = props
@@ -14,17 +13,23 @@ const LogIn = (props) => {
                 <article class="media has-text-left">
                   <figure class="media-left">
                     <p class="image is-64x64">
-                      <img class="is-rounded" src={GenghisFace} />
+                      <img class="is-rounded" src="https://bulma.io/images/placeholders/64x64.png" />
                     </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
                       <p>
+                        <strong>Lorem ipsum</strong> <small>@Lorem ipsum</small>
+                       
+                        <br />
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+                      </p>
+                      {/* <p>
                         <strong>Genghis Khan</strong> <small>@MongolianProverbs</small>
                        
                         <br />
                         “While horse is strong, travel to see places.”
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </article>
@@ -73,7 +78,7 @@ const LogIn = (props) => {
               </div>
               <div class="column is-5 is-offset-1">
                 <figure class="image">
-                  <img src={MongolRiding} alt="Mongol Riding" />
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Mongol Riding" />
                 </figure>
               </div>
             </div>

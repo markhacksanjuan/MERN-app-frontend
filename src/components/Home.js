@@ -1,6 +1,5 @@
 import React from "react";
-import WelcomeText from "./WelcomeText";
-import khan from "../the-khan.gif";
+
 //Dependencias
 import { Link, Route, Redirect } from "react-router-dom";
 
@@ -13,13 +12,14 @@ const Home = (props) => {
           <div class="columns is-vcentered">
             <div class="column is-5 is-offset-1 has-text-left mb-6">
               <h2 class="subtitle is-size-3 is-size-5-mobile has-text-left is-spaced has-text-weight-semibold">
-                Follow in the footsteps of the warrior...
+              Lorem ipsum dolor sit amet, consectetur...
               </h2>
-              <h1 class="title is-2 is-bold is-spaced has-text-warning-dark">
-                Discover Mongolia,
+              <h1 class="title is-2 is-bold is-spaced">
+              Lorem ipsum dolor,
                 <br />
-                the land of the Great Khan
+                consectetur adipiscing elit.
               </h1>
+              
               <p class="is-size-5 is-size-6-mobile">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 <br />
@@ -49,14 +49,9 @@ const Home = (props) => {
             </div>
             <div class="column is-5 is-offset-1">
               <figure class="image">
-                <img src={khan}  alt="Genghis Khan" />
+                <img src="https://bulma.io/images/placeholders/128x128.png"  alt="Genghis Khan" />
               </figure>
-              {/* <h3 class="title is-5 feature-title has-text-black has-text-centered has-text-weight-normal">
-                “If you're afraid, don't do it.
-                <br />
-                If you're doing it, don't be afraid!”
-              </h3>
-              <h5 class="subtitle is-5 has-text-right">Genghis Khan</h5> */}
+              
             </div>
           </div>
         </div>

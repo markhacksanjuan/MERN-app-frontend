@@ -11,6 +11,7 @@ class AllMangas extends React.Component {
   }
 
   componentDidMount(){
+    // fetch('https://api.jikan.moe/v3/search/manga?q=&order_by=score&sort=desc&page=1')
     fetch('https://api.jikan.moe/v3/search/manga?q=&order_by=score&sort=desc&page=1')
     .then((data)=>{
       return data.json()

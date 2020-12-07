@@ -35,13 +35,13 @@
 }
 
 .header-bg {
-  background-image: url("./header-bg.png");
+  /* background-image: url("./header-bg.png"); */
   background-position: center;
   background-size: cover;
 }
 
 .login-bg {
-  background-image: url("./login-bg.png");
+  /* background-image: url("./login-bg.png"); */
   background-position: center;
   background-size: cover;
 }
